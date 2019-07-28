@@ -15,10 +15,16 @@
     margin: 0;
     padding: 0;
   }
+  h3 {
+    font-size: 1.5rem;
+  }
   @media (min-width: 992px) {
     height: 100vh;
     h1 {
       font-size: 5.5rem;
+    }
+    h3 {
+      font-size: 2rem;
     }
   }
 }

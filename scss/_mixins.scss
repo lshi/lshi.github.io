@@ -8,6 +8,12 @@
 }
 
 // Font Mixins
+
+@mixin title-font {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
 @mixin body-font {
-  font-family: 'Raleway';
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
 }

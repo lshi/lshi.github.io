@@ -17,6 +17,10 @@ body {
 .content-section {
   padding-top: 3rem;
   padding-bottom: 3rem;
+
+  li {
+    padding-bottom: 10px;
+  }
 }
 
 // Typography
@@ -26,27 +30,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  @include title-font;
 }
 
 .text-faded {
   color: fade-out($white, 0.3);
-}
-
-/* Map */
-
-.map {
-  height: 30rem;
-}
-
-@media(max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
 }
 
 // Scroll to top button
