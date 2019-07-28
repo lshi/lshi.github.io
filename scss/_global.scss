@@ -19,7 +19,7 @@ body {
   padding-bottom: 3rem;
 
   li {
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
   }
 }
 
@@ -33,8 +33,13 @@ h6 {
   @include title-font;
 }
 
-.text-faded {
-  color: fade-out($white, 0.3);
+// Sections
+section {
+  h2,
+  h4,
+  h5 {
+    padding: 1rem 0;
+  }
 }
 
 // Scroll to top button
