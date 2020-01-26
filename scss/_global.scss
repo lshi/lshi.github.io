@@ -21,6 +21,18 @@ body {
   li {
     padding-bottom: 1rem;
   }
+
+  ul.contact li {
+    padding-bottom: 0;
+  }
+
+  ul.social {
+    margin-left: 1rem;
+
+   li {
+      padding-bottom: 0;
+    }
+  }
 }
 
 // Typography
