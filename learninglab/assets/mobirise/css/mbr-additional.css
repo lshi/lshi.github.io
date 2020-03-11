@@ -2228,6 +2228,46 @@ section.lazy-placeholder:after {
     margin: auto;
   }
 }
+.cid-rSV0TPrRIB {
+  padding-top: 90px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rSV0TPrRIB .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rSV0TPrRIB .media-row {
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.cid-rSV0TPrRIB .team-item {
+  transition: all .2s;
+  margin-bottom: 2rem;
+}
+.cid-rSV0TPrRIB .team-item .item-image img {
+  width: 100%;
+}
+.cid-rSV0TPrRIB .team-item .item-name p {
+  margin-bottom: 0;
+}
+.cid-rSV0TPrRIB .team-item .item-role p {
+  margin-bottom: 0;
+}
+.cid-rSV0TPrRIB .team-item .item-social {
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+}
+.cid-rSV0TPrRIB .team-item .item-social .socicon {
+  color: #232323;
+  font-size: 17px;
+}
+.cid-rSV0TPrRIB .team-item .item-caption {
+  background: #efefef;
+}
 .cid-rxPVGh5BiJ {
   padding-top: 45px;
   padding-bottom: 45px;
