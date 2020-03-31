@@ -205,10 +205,10 @@
                 }
             });
 
-            // .mbr-parallax-background
+            // .parallax-background
             function initParallax(card) {
                 setTimeout(function() {
-                    $(card).outerFind('.mbr-parallax-background')
+                    $(card).outerFind('.parallax-background')
                         .jarallax({
                             speed: 0.6
                         })
@@ -223,7 +223,7 @@
             if ($.fn.jarallax && !$.isMobile()) {
                 $(window).on('update.parallax', function(event) {
                     setTimeout(function() {
-                        var $jarallax = $('.mbr-parallax-background');
+                        var $jarallax = $('.parallax-background');
 
                         $jarallax.jarallax('coverImage');
                         $jarallax.jarallax('clipContainer');
@@ -681,7 +681,7 @@
         // add padding to the first element, if it exists
         if ($('nav.navbar').length) {
             var navHeight = $('nav.navbar').height();
-            $('.mbr-after-navbar.mbr-fullscreen').css('padding-top', navHeight + 'px');
+            $('.mbr-after-navbar.fullscreen').css('padding-top', navHeight + 'px');
         }
 
         function isIE() {
@@ -700,7 +700,7 @@
             $(document).on('add.cards', function(event) {
                 var $eventTarget = $(event.target);
 
-                if ($eventTarget.hasClass('mbr-fullscreen')) {
+                if ($eventTarget.hasClass('fullscreen')) {
                     $(window).on('load resize', function() {
                         $eventTarget.css('height', 'auto');
 
