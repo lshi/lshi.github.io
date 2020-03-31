@@ -125,22 +125,6 @@ a,
 a:hover {
     text-decoration: none;
 }
-blockquote {
-    padding: 10px 0 10px 20px;
-    position: relative;
-    border-left: 2px solid;
-    border-color: #ff3366;
-}
-input: -webkit-autofill,
-input: -webkit-autofill:hover,
-input: -webkit-autofill:focus,
-input: -webkit-autofill:active {
-    transition-delay: 9999s;
-    transition-property: background-color, color;
-}
-textarea[type='hidden'] {
-    display: none;
-}
 footer {
   padding: 1.5rem 0;
   font-weight: 400;
