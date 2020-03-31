@@ -1,18 +1,30 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
-
+@import url(https://fonts.googleapis.com/css?family=Exo:400,700|Montserrat:300,500,700);
 html {
   height: auto;
   min-height: 100vh;
 }
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-style: normal;
   line-height: 1.5;
   color: #232323;
   position: relative;
   height: auto;
   min-height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Exo', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
+  padding: 0.5rem 0;
+  word-break: break-word;
+  word-wrap: break-word;
 }
 section {
   background-color: #fff;
@@ -113,19 +125,6 @@ a,
 a:hover {
     text-decoration: none;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.2;
-  padding: 0.5rem 0;
-  word-break: break-word;
-  word-wrap: break-word;
-}
 blockquote {
     padding: 10px 0 10px 20px;
     position: relative;
@@ -201,10 +200,6 @@ footer {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
-}
-.media-content {
-    -webkit-flex-basis: 100%;
-    flex-basis: 100%;
 }
 .mbr-figure img,
 .mbr-figure iframe {
@@ -941,6 +936,10 @@ footer {
 }
 .section-intro .bg-black {
   background-color: rgba(0, 0, 0, 0.8);
+}
+.section-intro .body,
+.section-about .body {
+    font-size: 1.6rem;
 }
 .page-title {
   padding-top: 135px;
