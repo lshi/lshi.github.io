@@ -22,17 +22,6 @@ body {
     padding-bottom: 1rem;
   }
 
-  ul.contact li {
-    padding-bottom: 0;
-  }
-
-  ul.social {
-    margin-left: 1rem;
-
-   li {
-      padding-bottom: 0;
-    }
-  }
 }
 
 // Typography
@@ -47,9 +36,11 @@ h6 {
 
 // Sections
 section {
-  h2,
-  h4,
-  h5 {
+  h1 {
+    padding: 2rem 0;
+  }
+  h3,
+  h4 {
     padding: 1rem 0;
   }
 }
