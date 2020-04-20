@@ -7,7 +7,7 @@
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: $primary;
+  background: $dark;
   border-left: 1px solid fade-out($white, 0.9);
 }
 
@@ -43,7 +43,7 @@
 
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
-  background: fade-out($gray-800, .9);
+  background: fade-out($dark, .9);
   height: 80px;
   line-height: 50px;
   padding-top: 15px;
@@ -77,14 +77,14 @@
 
   text-align: center;
 
-  background: fade-out($primary, .3);
+  background: fade-out($dark, .3);
 
   line-height: 50px;
 
   z-index: 999;
 
   &:hover {
-    background: fade-out($primary, .4);
+    background: fade-out($dark, .4);
   }
   &.active {
     background-color: fade-out($white, .3);
