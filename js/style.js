@@ -5,7 +5,9 @@
   $(".menu-toggle").click(function(e) {
     e.preventDefault();
     $("#sidebar-wrapper").toggleClass("active");
-    $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
+    $(".menu-toggle > img").attr('src', function(index, attr){
+      return attr == 'img/icon-times.svg' ? 'img/icon-hamburger.svg' : 'img/icon-times.svg';
+  });
     $(this).toggleClass("active");
   });
 
@@ -27,7 +29,7 @@
   $('#sidebar-wrapper .js-scroll-trigger').click(function() {
     $("#sidebar-wrapper").removeClass("active");
     $(".menu-toggle").removeClass("active");
-    $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
+    $(".menu-toggle > img").attr('src', 'img/icon-hamburger.svg');
   });
 
   // Scroll to top button appear

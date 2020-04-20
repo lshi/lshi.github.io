@@ -32,6 +32,7 @@ h4,
 h5,
 h6 {
   @include title-font;
+  font-weight: 300;
 }
 
 // Sections
@@ -57,19 +58,11 @@ section {
   height: 50px;
 
   text-align: center;
+  line-height: 50px;
 
-  color: white;
-  background: fade-out($gray-800, .5);
+  background: fade-out($primary, .3);
 
-  line-height: 45px;
-  &:focus,
   &:hover {
-    color: white;
-  }
-  &:hover {
-    background: $gray-800;
-  }
-  i {
-    font-weight: 800;
+    background: fade-out($primary, .4);
   }
 }
